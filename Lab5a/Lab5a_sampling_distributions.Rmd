@@ -93,7 +93,7 @@ This command collects a simple random sample of size 50 from the `global_monitor
 
 1.  Describe the distribution of responses in this sample. How does it compare to the distribution of responses in the population. **Hint:** Although the `sample_n` function takes a random sample of observations (i.e. rows) from the dataset, you can still refer to the variables in the dataset with the same names. Code you presented earlier for visualizing and summarizing the population data will still be useful for the sample, however be careful to not label your proportion `p` since you're now calculating a sample statistic, not a population parameters. You can customize the label of the statistics to indicate that it comes from the sample.
 
-**KH: My sample has an even lower proportion of people who believe science does not benefit them, 16%*
+**KH: My sample has an even lower proportion of people who believe science does not benefit them, 16%**
 ```{r}
 samp1 |> 
   count(scientist_work) |> 
